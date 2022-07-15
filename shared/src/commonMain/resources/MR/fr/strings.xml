@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="detail_screen_title">Detail</string>
+    <string name="detail_screen_top_bar_content_desc_nav_back">Retourner à l\'écran précédent</string>
+    <string name="detail_screen_tab_like">J\'aime</string>
+    <string name="detail_screen_tab_dislike">Je n\'aime pas</string>
+
+    <string name="home_screen_title">Fais ton choix !</string>
+    <string name="home_screen_content_desc_nav_detail">Aller voir qui vous avez aimé ou pas</string>
+    <string name="home_screen_content_desc_error_loading_profile">Erreur lors du chargement du profil</string>
+    <string name="home_screen_error_image_reload">Cliquez pour recharger</string>
+
+    <string name="error_network_connexion">Veuillez vérifier votre connexion réseau.</string>
+    <string name="error_network_server">Problème de serveur, réessayez plus tard.</string>
+    <string name="error_unexpected">Problèmes inattendus.</string>
+</resources>

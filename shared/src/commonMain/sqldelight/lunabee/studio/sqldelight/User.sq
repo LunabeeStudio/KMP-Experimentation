@@ -1,0 +1,47 @@
+CREATE TABLE UserEntitiy (
+    id TEXT NOT NULL PRIMARY KEY,
+
+    firstName TEXT NOT NULL,
+    lastName TEXT NOT NULL,
+
+    profilePicture TEXT NOT NULL,
+
+    age INTEGER AS Int NOT NULL,
+
+    city TEXT NOT NULL,
+    country TEXT NOT NULL,
+    nationality TEXT NOT NULL,
+
+    liked INTEGER AS Int NOT NULL DEFAULT 0
+);
+
+insertUser:
+INSERT OR REPLACE INTO UserEntitiy
+VALUES ?;
+
+updateUser:
+UPDATE UserEntitiy
+SET liked = :liked
+WHERE id = :id;
+
+getLastUser:
+SELECT * FROM UserEntitiy
+WHERE liked = 0;
+
+getLikedUsers:
+SELECT * FROM UserEntitiy
+WHERE liked = 1;
+
+getDislikedUsers:
+SELECT * FROM UserEntitiy
+WHERE liked = -1;
+
+deleteAll:
+DELETE FROM UserEntitiy;
+
+selectAll:
+SELECT * FROM UserEntitiy;
+
+selectUserById:
+SELECT * FROM UserEntitiy
+WHERE id = ?;

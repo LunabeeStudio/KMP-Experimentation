@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="detail_screen_title">Detail</string>
+    <string name="detail_screen_top_bar_content_desc_nav_back">Get back on the previous screen</string>
+    <string name="detail_screen_tab_like">Liked</string>
+    <string name="detail_screen_tab_dislike">Disliked</string>
+
+    <string name="home_screen_title">Do your choice !</string>
+    <string name="home_screen_content_desc_nav_detail">Go see who you liked and who you didn\'t</string>
+    <string name="home_screen_content_desc_error_loading_profile">Error while loading the profile</string>
+    <string name="home_screen_error_image_reload">Click to reload</string>
+
+    <string name="error_network_connexion">Please verify your network connexion</string>
+    <string name="error_network_server">Server issue, retry later.</string>
+    <string name="error_unexpected">Unexpected issue.</string>
+</resources>

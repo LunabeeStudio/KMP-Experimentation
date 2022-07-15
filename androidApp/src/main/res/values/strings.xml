@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KMPTest</string>
+
+    <string name="navigate_to_note_screen">Navigate to create note screen</string>
+    <string name="delete_note">Delete note</string>
+    <string name="show_notes">Show notes</string>
+
+
+    <string name="screen_create_note">Create note</string>
+
+    <string name="create_note_button">Create note</string>
+    <string name="create_note_title_field">Title</string>
+    <string name="create_note_content_field">Content</string>
+    <string name="create_note_content_desc_go_to_notes_screen">Get back to the show notes screen</string>
+
+</resources>

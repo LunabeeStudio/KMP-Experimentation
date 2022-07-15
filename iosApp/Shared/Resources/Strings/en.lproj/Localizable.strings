@@ -1,0 +1,9 @@
+"Screen.ShowNotes.title" = "Show notes";
+
+"Screen.CreateNote.title" = "Create notes";
+"Screen.CreateNote.titleField" = "Title";
+"Screen.CreateNote.contentField" = "Content";
+"Screen.CreateNote.createNoteButton" = "Create notes";
+"Screen.CreateNote.Error.EmptyContent.title" = "Note error";
+"Screen.CreateNote.Error.EmptyContent.message" = "Verify your title and content, they should not be empty";
+"Screen.CreateNote.createNoteButton" = "Create notes";

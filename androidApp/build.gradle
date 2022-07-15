@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "studio.lunabee.kmptest"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '_'
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+    namespace 'studio.lunabee.kmptest'
+}
+
+dependencies {
+
+    implementation project(":shared")
+
+    implementation AndroidX.core.ktx
+    implementation AndroidX.compose.ui
+    implementation AndroidX.compose.material
+    implementation AndroidX.compose.ui.toolingPreview
+    implementation AndroidX.lifecycle.runtimeKtx
+    implementation AndroidX.activity.compose
+    implementation AndroidX.lifecycle.viewModelCompose
+    testImplementation Testing.junit4
+    androidTestImplementation AndroidX.test.ext.junit
+    androidTestImplementation AndroidX.test.espresso.core
+    androidTestImplementation AndroidX.compose.ui.testJunit4
+    debugImplementation AndroidX.compose.ui.tooling
+
+    // Koin
+    implementation Koin.android
+    implementation Koin.compose
+
+    // Coroutine
+    implementation KotlinX.coroutines.android
+
+    // Navigation
+    implementation AndroidX.navigation.compose
+}

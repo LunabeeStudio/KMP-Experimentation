@@ -1,0 +1,16 @@
+CREATE TABLE NoteEntity (
+    id TEXT NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL
+);
+
+getNotes:
+SELECT * FROM NoteEntity;
+
+insetNote:
+INSERT INTO NoteEntity(id, title, content)
+VALUES (?, ?, ?);
+
+deleteNote:
+DELETE FROM NoteEntity
+WHERE id = ?;

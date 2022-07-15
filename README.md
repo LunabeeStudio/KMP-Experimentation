@@ -25,8 +25,3 @@ To reach our goal and evaluate independently which module could be replaced usin
 2.  [A project to replace the server calls](https://github.com/LunabeeStudio/KMP-Experimentation/tree/network/kmm)
 3.  [The third project aim to see if we could replace the local database](https://github.com/LunabeeStudio/KMP-Experimentation/tree/local/kmm)
 4.  **Finally, a real app to combine all 3 first projects**
-
-To compare between native and KMM we built 3 projects.
-
--   [Android app](https://github.com/LunabeeStudio/KMP-Experimentation/tree/complete_app/android)
--   **KMM app**

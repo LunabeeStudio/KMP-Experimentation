@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KMPTest</string>
+    <string name="fetch_data">Fetch data</string>
+    <string name="screen_home_title">Home</string>
+    <string name="screen_user_title">Users</string>
+    <string name="navigate_previous_screen">Navigate to previous screen</string>
+
+    <string name="error_server">Server error. Please retry in a few minutes.</string>
+    <string name="error_network">Network issue. Please verify your network connexion</string>
+    <string name="error_unexpected">An unexpected error occurred</string>
+</resources>

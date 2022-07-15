@@ -1,0 +1,14 @@
+"Home.titleScreen" = "Home";
+"Home.fetchData" = "Fetch data";
+
+"Users.titleScreen" = "Users";
+
+"Network.error.loading" = "There was an error loading the image.";
+"Network.error.server" = "Server error. Please retry in a few minutes.";
+"Network.error.network" = "Network issue. Please verify your network connexion";
+"Network.error.data" = "Invalid data";
+"Network.error.unexpected" = "An unexpected error occurred";
+
+
+
+

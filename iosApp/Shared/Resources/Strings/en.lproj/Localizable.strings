@@ -1,0 +1,11 @@
+
+"Request.person.email" = "Enter your email address";
+
+"Person.email" = "Email";
+
+"Utils.verify" = "Verify";
+"Navigation.title.home" = "Home";
+"Navigation.title.result" = "Result";
+
+"Result.email.correct" = "This email has the correct format.";
+"Result.email.wrong" = "This email has the wrong format.";

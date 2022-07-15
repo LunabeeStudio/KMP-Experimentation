@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KMPTest</string>
+    <string name="enter_email_address">Enter your email address</string>
+    <string name="validate">Validate</string>
+    <string name="email_correct_format">It works</string>
+    <string name="email_incorrect_format">Doesn\'t work</string>
+    <string name="back">Back</string>
+</resources>

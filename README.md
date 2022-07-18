@@ -21,7 +21,14 @@ To answer this big question, we asked ourselves smaller questions that could hel
 
 To reach our goal and evaluate independently which module could be replaced using KMM, we thought of small projects to test them step by step before doing the main project.
 
-1.  **The most simple project to use KMM, a lib with a function to check a string in it**
-2.  [A project to replace the server calls](https://github.com/LunabeeStudio/KMP-Experimentation/tree/network/kmm)
-3.  [The third project aim to see if we could replace the local database](https://github.com/LunabeeStudio/KMP-Experimentation/tree/local/kmm)
-4.  [Finally, a real app to combine all 3 first projects](https://github.com/LunabeeStudio/KMP-Experimentation/tree/complete_app/kmm)
+1. **The most simple project to use KMM, a lib with a function to check a string in it**
+2. [A project to replace the server calls](https://github.com/LunabeeStudio/KMP-Experimentation/tree/network/kmm)
+3. [The third project aim to see if we could replace the local database](https://github.com/LunabeeStudio/KMP-Experimentation/tree/local/kmm)
+4. [Finally, a real app to combine all 3 first projects](https://github.com/LunabeeStudio/KMP-Experimentation/tree/complete_app/kmm)
+
+## 📱 This project
+
+The objectives of this project is to test business logic. So there is the part :
+- Business logic
+
+The goal of this project is to create an application that verify if a string is a valid email.

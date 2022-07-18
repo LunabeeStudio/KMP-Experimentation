@@ -21,7 +21,15 @@ To answer this big question, we asked ourselves smaller questions that could hel
 
 To reach our goal and evaluate independently which module could be replaced using KMM, we thought of small projects to test them step by step before doing the main project.
 
-1.  [The most simple project to use KMM, a lib with a function to check a string in it](https://github.com/LunabeeStudio/KMP-Experimentation/tree/logic/kmm)
-2.  [A project to replace the server calls](https://github.com/LunabeeStudio/KMP-Experimentation/tree/network/kmm)
-3.  **The third project aim to see if we could replace the local database**
-4.  [Finally, a real app to combine all 3 first projects](https://github.com/LunabeeStudio/KMP-Experimentation/tree/complete_app/kmm)
+1. [The most simple project to use KMM, a lib with a function to check a string in it](https://github.com/LunabeeStudio/KMP-Experimentation/tree/logic/kmm)
+2. [A project to replace the server calls](https://github.com/LunabeeStudio/KMP-Experimentation/tree/network/kmm)
+3. **The third project aim to see if we could replace the local database**
+4. [Finally, a real app to combine all 3 first projects](https://github.com/LunabeeStudio/KMP-Experimentation/tree/complete_app/kmm)
+
+## 📱 This project
+
+The objectives of this project is to use the local database. So there are the parts :
+- Local database
+- Business logic
+
+The goal of this project is to create a note app. we can create, save and delete a note that is kept on the phone.
